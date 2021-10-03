@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.css" >
+    <script src="index.js"></script>
+    <title>Register</title>
+</head>
+<body>
+
+    <div class="container">
+ 
+        <div id="bouncer_logo">
+            <img src="Images/bouncer_logo.svg" alt="Bouncer--logo">
+        </div>
+    
+        <div id="bouncer_image">
+            <img src="Images/bouncer_cover_image.svg" width=90% alt="Bouncer-cover-photo">
+        </div>
+
+        <div id="choice">
+            <label ><a href="login.html">Sign in</a><span class='psw active'><a href="register.html">Register</a></span></label>
+        </div>
+    
+        <main id='form'>  
+            <form action="" method="post">
+    
+                <div class="form-components">
+                    <label for="uname">First name</label>
+                    <input type="text" name="uname" required>
+                </div>
+
+                <div class="form-components">
+                    <label for="uname">Last name</label>
+                    <input type="text" name="uname" required>
+                </div>
+
+                <div class="form-components">
+                    <label for="uname">Username</label>
+                    <input type="text" name="uname" required>
+                </div>
+
+                <div class="form-components">
+                    <label for="uname">Email</label>
+                    <input type="text" name="uname" required>
+                </div>
+
+                <div class="form-components">
+                    <label for="psw">Password<span  onclick="display()"><i  id='font-change' class="far fa-eye pss" ></i></span></label>
+                    <input id="password" type="password" name="psw" required>
+                </div>
+
+                <div class="form-components">
+                    <label for="psw">Confirm password<span  onclick="displayConfirm()"><i  id='font-change-confirm' class="far fa-eye pss" ></i></span></label>
+                    <input id="confirm-password" type="password" name="psw" required>
+                </div>
+
+                <div class="form-components">
+                    <button type="submit">Sign Up</button>
+                </div>
+                
+                <div class="form-components" >
+                    <label for="uname"><a href="#">Become a vendor</a></label>
+                    <span class="psw"><a href="#"><label for="uname">Forgot Password</label></a></span>
+                </div>
+    
+            </form>
+        </main>  
+
+        <div id="footer"></div>
+
+        
+        <!-- <div id="bouncer_logo"></div>
+        <div id="bouncer_image"></div>
+        <div id="choice"></div>
+        <main id="form"></main>
+        <div id="footer"></div>  -->
+
+    </div>   
+ 
+  </body>
+</html>
